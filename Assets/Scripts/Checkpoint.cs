@@ -3,6 +3,7 @@
 public class Checkpoint : MonoBehaviour
 {
     private Transform playerSpawn;
+    public Animator animator;
 
     private void Awake()
     {
@@ -15,7 +16,7 @@ public class Checkpoint : MonoBehaviour
         {
             playerSpawn.position = transform.position;
             gameObject.GetComponent<BoxCollider2D>().enabled = false;
-            transform.GetChild(0).GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 0f);
+            animator.SetTrigger("Check");
         }
     }
 }
