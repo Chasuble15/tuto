@@ -64,7 +64,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Ladder.cs" />
     <Compile Include="Assets\Scripts\Camerafollow.cs" />
     <Compile Include="Assets\Scripts\Checkpoint.cs" />
     <Compile Include="Assets\Scripts\DeathZone.cs" />
@@ -72,6 +71,7 @@
     <Compile Include="Assets\Scripts\EnemyPatrol.cs" />
     <Compile Include="Assets\Scripts\HealthBar.cs" />
     <Compile Include="Assets\Scripts\Inventory.cs" />
+    <Compile Include="Assets\Scripts\Ladder.cs" />
     <Compile Include="Assets\Scripts\LoadSpecificScene.cs" />
     <Compile Include="Assets\Scripts\PickUpObject.cs" />
     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
